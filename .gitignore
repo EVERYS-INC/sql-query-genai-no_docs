@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Node.js (if using for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets and credentials
+*.pem
+*.key
+credentials.json
+config.ini
+secrets.yaml
+
+# Llama models (large files)
+models/
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.gguf
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json

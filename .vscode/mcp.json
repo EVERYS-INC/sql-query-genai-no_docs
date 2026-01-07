@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "github": { "type": "http", "url": "https://api.githubcopilot.com/mcp/" },
+    "spec-workflow": {
+      "command": "npx",
+      "args": ["-y", "@pimzino/spec-workflow-mcp@latest", "/Users/kahara33/repos/sql-query-genai-no_docs"]
+    }
+  }
+}
+ 

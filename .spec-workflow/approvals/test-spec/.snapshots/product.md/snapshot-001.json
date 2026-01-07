@@ -1,0 +1,16 @@
+{
+  "id": "snapshot_1766552844581_pp9o98wcq",
+  "approvalId": "approval_1766552844577_2l0n7s5s0",
+  "approvalTitle": "Approval request: docs/specs/test-spec/product.md",
+  "version": 1,
+  "timestamp": "2025-12-24T05:07:24.580Z",
+  "trigger": "initial",
+  "status": "pending",
+  "content": "# 製品背景 (product.md) — ToDo サンプル\n\n## 概要\nこのドキュメントは、ToDo サンプル機能に関する製品的な背景と目的を簡潔に示します。\n\n## 課題\n- ユーザーが日々のタスクを簡単に記録・管理できるシンプルなインターフェースが必要。\n\n## ゴール\n- 最低限の CRUD 機能を提供し、学習やプロトタイピングに使える状態にする。\n\n## スコープ\n- フロントエンドは想定内で API に対して CRUD を行う設計。\n- 認証は今回のスコープ外（必要なら別タスクで追加する）。\n\n## KPI（学習向け）\n- 基本機能の実装完了までの時間\n- テスト網羅率（簡易）\n",
+  "fileStats": {
+    "size": 719,
+    "lines": 19,
+    "lastModified": "2025-12-24T05:00:49.915Z"
+  },
+  "comments": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "snapshot_1766552847647_1tedygf6z",
+  "approvalId": "approval_1766552847643_ybv12rgjm",
+  "approvalTitle": "Approval request: docs/specs/test-spec/tasks.md",
+  "version": 1,
+  "timestamp": "2025-12-24T05:07:27.647Z",
+  "trigger": "initial",
+  "status": "pending",
+  "content": "# 実装タスク (tasks.md)\n\nこのファイルは MCP ワークフローに従って編集します。\n\n注意: タスクを開始する際は `- [ ]` → `- [-]` に変更し、実装が終わりログを残したら `- [x]` にしてください。\n\n1. [ ] task-1: API ベースの骨組み作成\n   - 目的: /api/todos のエンドポイント群 (GET/POST/PUT/DELETE) のルーティングと簡易ハンドラを作る\n   - ファイル想定: `src/todos_api.py`（または既存の API ファイルに統合）\n   - 成功基準: ハッピーパスのエンドポイントで 200/201/204 が返る\n\n2. [ ] task-2: DB モデルと CRUD 実装\n   - 目的: SQLite を使った Todo モデルと永続化の実装\n   - ファイル想定: `src/database.py` の拡張または新規 `src/models/todo.py`\n   - 成功基準: 作成・一覧・更新・削除が DB に反映される\n\n3. [ ] task-3: 単体テスト追加\n   - 目的: pytest を用いた各エンドポイントのテストを追加\n   - 成功基準: 主要な API に対するテストが通る\n\n4. [ ] task-4: README の削除手順を追記（完了時に確認）\n   - 目的: 作業後に簡単にこのフォルダを取り除けるようにする（既に README に記載済み）\n",
+  "fileStats": {
+    "size": 1261,
+    "lines": 23,
+    "lastModified": "2025-12-24T05:01:12.637Z"
+  },
+  "comments": []
+}

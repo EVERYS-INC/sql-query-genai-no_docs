@@ -1,0 +1,16 @@
+{
+  "id": "snapshot_1766552846469_7iu7tso44",
+  "approvalId": "approval_1766552846465_5n9nms8ug",
+  "approvalTitle": "Approval request: docs/specs/test-spec/tech.md",
+  "version": 1,
+  "timestamp": "2025-12-24T05:07:26.469Z",
+  "trigger": "initial",
+  "status": "pending",
+  "content": "# 技術仕様・注意点 (tech.md)\n\n## 技術スタック（例）\n- Python + Flask / FastAPI（API 実装）\n- SQLite（開発用シンプル DB）\n- pytest（テスト）\n\n## DB スキーマ（例）\n\nCREATE TABLE todos (\n  id INTEGER PRIMARY KEY AUTOINCREMENT,\n  title TEXT NOT NULL,\n  description TEXT,\n  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n  completed BOOLEAN DEFAULT 0\n);\n\n## API 契約の注意\n- ステータスコードの取り扱いは spec.md の定義に従う。\n- PUT は全更新ではなく、部分更新を受け取り可能にする（受け取ったフィールドのみ更新）。\n\n## テスト\n- ユニットテスト: 各エンドポイントのハッピーパス + 代表的なエラーケース (404, 400)\n\n## 開発フロー（簡易）\n1. `tasks.md` のタスクを 1 件取り、`[-]` として状態を更新する\n2. 既存実装（リポジトリ）を検索して再利用できるか確認する\n3. 実装 → ログ（log-implementation） → tasks.md を `[x]` にする\n",
+  "fileStats": {
+    "size": 1022,
+    "lines": 29,
+    "lastModified": "2025-12-24T05:01:00.046Z"
+  },
+  "comments": []
+}

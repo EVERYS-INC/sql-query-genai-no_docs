@@ -1,0 +1,14 @@
+{
+  "filePath": "docs/specs/test-spec/product.md",
+  "currentVersion": 1,
+  "snapshots": [
+    {
+      "version": 1,
+      "filename": "snapshot-001.json",
+      "timestamp": "2025-12-24T05:07:24.580Z",
+      "trigger": "initial",
+      "approvalId": "approval_1766552844577_2l0n7s5s0",
+      "approvalTitle": "Approval request: docs/specs/test-spec/product.md"
+    }
+  ]
+}
